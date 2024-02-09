@@ -1,5 +1,7 @@
 ## smashGC
-A tool that takes input of a folder containing gbff files (this can be multiple within the directory) and a single tsv file describing the biosynthetic gene clusters (BGC) regions within the genomes. The tool was built around correlating GC content of antismash BGCs with host GC content.
+A tool that was created to work downstream of antismash7 results to look for evidence of horizontal gene transfer (HGT) events.
+
+The tool takes input of a folder containing gbff files (this can be multiple within the directory) and a single tsv file describing the biosynthetic gene clusters (BGC) regions within the genomes. The tool was built around correlating GC content of antismash BGCs with host GC content.
 
 The tool then finds the GC content of the BGC vs the whole genome. 
 
@@ -34,7 +36,7 @@ The output is a plot of the correlation between the two GC content values create
     ```
 
 ## Usage
-
+The tool comes with a biopython script to pull out the necessary information from an antismash results start and end in the context of the whole genome.
 
 1. Prepare your data:
     - Ensure your `.gbff` files are located within a single folder.
