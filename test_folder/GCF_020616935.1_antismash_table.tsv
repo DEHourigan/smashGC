@@ -1,0 +1,5 @@
+product	assembly	orig_start	orig_end	locus	filename
+RiPP-like	GCF_020616935.1	15231	25447	NZ_CP085296.1	GCF_020616935.1.gbff
+lanthipeptide-class-ii	GCF_020616935.1	972	23954	NZ_CP085297.1	GCF_020616935.1.gbff
+cyclic-lactone-autoinducer	GCF_020616935.1	2017830	2038559	NZ_CP085294.1	GCF_020616935.1.gbff
+thiopeptide	GCF_020616935.1	586751	618535	NZ_CP085294.1	GCF_020616935.1.gbff
