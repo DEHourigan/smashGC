@@ -4,6 +4,7 @@ A tool that was created to work downstream of antismash7 results to look for evi
 The tool takes input of a folder containing gbff files (this can be multiple within the directory) and a single tsv file describing the biosynthetic gene clusters (BGC) regions within the genomes. The tool was built around correlating GC content of antismash BGCs with host GC content.
 
 The tool then finds the GC content of the BGC vs the whole genome. 
+![Example of a plot created with the tool](data/gcSmash.001.jpeg "Example Plot")
 
 The output is a plot of the correlation between the two GC content values created using this tool. Antismash was run on 616 enterococcal genomes and the tool was run on the genomes and a tsv file describing the products. 
 ![Example of a plot created with the tool](data/GC_content_antismash_enterococcus.png "Example Plot")
@@ -36,7 +37,7 @@ The output is a plot of the correlation between the two GC content values create
     ```
 
 ## Usage
-The tool comes with a biopython script to pull out the necessary information from an antismash results start and end in the context of the whole genome.
+The tool comes with a biopython script to pull out the necessary information from an antismash results start and end in the context of the whole genome. 
 
 1. Prepare your data:
     - Ensure your `.gbff` files are located within a single folder.
