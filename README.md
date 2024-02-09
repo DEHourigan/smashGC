@@ -3,7 +3,7 @@ A tool that takes input of a folder containing gbff files (this can be multiple 
 
 The tool then finds the GC content of the BGC vs the whole genome. 
 
-The output is a plot of the correlation between the two GC content values created using this tool.
+The output is a plot of the correlation between the two GC content values created using this tool. Antismash was run on 616 enterococcal genomes and the tool was run on the genomes and a tsv file describing the products. 
 ![Example of a plot created with the tool](data/GC_content_antismash_enterococcus.png "Example Plot")
 
 
