@@ -1,5 +1,7 @@
 ## smashGC
-A tool that takes input of a folder containing gbff and a tsv file describing the BGC regions within the genomes. The tool then find the GC content of the BGC vs the whole genome. 
+A tool that takes input of a folder containing gbff files (this can be multiple within the directory) and a single tsv file describing the BGC regions within the genomes. The tool was built around correlating GC content of antismash BGCs with host GC content.
+
+The tool then finds the GC content of the BGC vs the whole genome. 
 
 
 ## Features
