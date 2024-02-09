@@ -3,6 +3,8 @@ A tool that takes input of a folder containing gbff files (this can be multiple 
 
 The tool then finds the GC content of the BGC vs the whole genome. 
 
+![Example of a plot created with the tool](data/GC_content_antismash_enterococcus.png "Example")
+
 
 ## Features
 
