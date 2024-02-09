@@ -16,7 +16,7 @@ A tool that takes input of a folder containing gbff and a tsv file describing th
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/YourToolName.git
+    git clone https://github.com/DEHourigan/smashGC.git
     ```
 2. Navigate to the cloned directory:
     ```bash
