@@ -24,7 +24,7 @@ The tool then finds the GC content of the BGC vs the whole genome.
     ```
 2. Navigate to the cloned directory:
     ```bash
-    cd YourToolName
+    cd smashGC
     ```
 3. Install the required dependencies:
     ```bash
