@@ -1,5 +1,5 @@
 ## smashGC
-A tool that takes input of a folder containing gbff files (this can be multiple within the directory) and a single tsv file describing the BGC regions within the genomes. The tool was built around correlating GC content of antismash BGCs with host GC content.
+A tool that takes input of a folder containing gbff files (this can be multiple within the directory) and a single tsv file describing the biosynthetic gene clusters (BGC) regions within the genomes. The tool was built around correlating GC content of antismash BGCs with host GC content.
 
 The tool then finds the GC content of the BGC vs the whole genome. 
 
@@ -45,7 +45,7 @@ The output is a plot of the correlation between the two GC content values create
         - **locus**: Contig name
         - **filename**: Name of each individual `.gbff` file.
 
-2. Run YourToolName:
+2. Run smashGC:
     ```bash
     python smashGC.py -f /path/to/folder -t /path/to/file.tsv
     ```
@@ -54,7 +54,7 @@ Replace `/path/to/folder` and `/path/to/file.tsv` with the actual paths to your 
 
 ## Output
 
-tsv file contiaining GC content of BGC vs genome. Can be plotted
+tsv file contiaining GC content of BGC vs genome. Can be plotted from here.
 
 ## Contributing
 
